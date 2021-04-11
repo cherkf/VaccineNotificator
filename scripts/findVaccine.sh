@@ -5,7 +5,7 @@ result="$(/usr/bin/curl -X GET 'https://www.cvs.com/immunizations/covid-19-vacci
 now="$(date +"%r")"
 if [ -n "$result" ];
 #Update email
-then echo "This is the time $now $result" | /usr/bin/mail -s "CVS Covid Vaccine Available" -F notificatorv@gmail.com;#EMAIL
+then echo "This is the time $now $result" | /usr/bin/mail -s "CVS Covid Vaccine Available" -F fiwiya4818@whyflkj.com;#EMAIL
 #Additional log
 echo "This is the time $now $result"
 else echo Nothing changed "$result";
